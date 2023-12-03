@@ -8,12 +8,12 @@ Penggunaan Computer Vision, khususnya Object Detection, terutama untuk mendeteks
 ## Contributor
 | Full Name | Affiliation | Email | LinkedIn | Role |
 | --- | --- | --- | --- | --- |
-| Adhi Nugroho | Universitas Sains Alqur an | adhinugroho209@gmail.com | --- | Team Member |
-| Dewi Fatimah | Universitas Informatika Dan Bisnis Indonesia | dewifaa1234@gmail.com | ... | Team Member |
-| Gilbert O.K.D. Malau | Universitas Sumatera Utara | gilbertmalau476@gmail.com | ... | Team Leader |
-| Haqqi Setiadjie | Universitas Sebelas Maret | haqqieky354@gmail.com | https://www.linkedin.com/in/haqqi-setiadjie-a6030a293/ | Team Member |
-| Marva Indrasari | Politeknik Indonusa Surakarta | marvaindrasari@gmail.com | ... | Team Member |
-| Virgie Yunita Salsabil | Institut Teknologi Telkom Purwokerto | virgieyunitasalsa@gmail.com | ... | Team Member |
+| Adhi Nugroho | Universitas Sains Alqur an | adhinugroho209@gmail.com | [link](...) | Team Member |
+| Dewi Fatimah | Universitas Informatika Dan Bisnis Indonesia | dewifaa1234@gmail.com | [link](...) | Team Member |
+| Gilbert O.K.D. Malau | Universitas Sumatera Utara | gilbertmalau476@gmail.com | [link](...) | Team Leader |
+| Haqqi Setiadjie | Universitas Sebelas Maret | haqqieky354@gmail.com | [link](...) | Team Member |
+| Marva Indrasari | Politeknik Indonusa Surakarta | marvaindrasari@gmail.com | [link](...) | Team Member |
+| Virgie Yunita Salsabil | Institut Teknologi Telkom Purwokerto | virgieyunitasalsa@gmail.com | [link](...) | Team Member |
 
 ## Setup
 ### YOLOv5 requirements
@@ -137,7 +137,11 @@ Berikut adalah gambar-gambar testing menggunakan weight atau model dari YOLOv5 d
 - [link](https://www.canva.com/design/DAF0PgrWxEU/b38SuRkCsrzBF6vVwmy_4w/edit?utm_content=DAF0PgrWxEU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ### Business Model Canvas
-Provide a screenshot of your Business Model Canvas (BMC). Give some explanations, if necessary.
+<img src="https://github.com/InnovisionariesTeam/Innovisionaries_MedicineDetection/blob/main/asset/BMC.png" width="750">
+
+Tolong jelasin yaa gaiss
+
+Jika ingin melihat BMC secara Lengkap dapat melalui [link](https://docs.google.com/document/d/1d4BoXntGU1w5FP2nKvSDpLWp9PDnaWoE/edit?usp=sharing&ouid=117040208822152496605&rtpof=true&sd=true) ini
 
 ### Short Video
 - [link](https://drive.google.com/file/d/1ZKZfm0mlrGYXLSYV7N3vEamkxhseAApM/view?usp=drive_link)
