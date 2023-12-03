@@ -64,11 +64,35 @@ Dari ketiga arsitektur tersebut sebagai bacbone kami akan mengambil salah satuny
 
 Dari Hasil di atas, EfficientNetLite memiliki nilai Precision, Recall, mAP50, dan mAP50-95 paling besar di antara arsitekturnya. Maka EfficientNetLite Kami pilih sebagai Backbone dari YOLOv5 sebagai model
 
-### Training/Validation Curve
+Untuk Hasil Performa lengkap dari YOLOv5 dengan menggunakan Backbone EfficientNetLite sebagai berikut:
+| Class	| Images-Instance	| Precision	| Recall	| mAP50	| mAP50-95 |
+| --- | --- | --- | --- | --- | --- |
+| ALL | 	74-104	| 0.93 | 0.944 |	0.969	| 0.757 |
+| bodrex_bungkus | 74-8 | 0.971 |	1	| 0.995	| 0.832 |
+| bodrexin_bungkus | 74-2 | 1 |	0.931 |	0.995 |	0.696 |
+| decolgen_bungkus | 74-5 | 0.828 |	1 |	0.995 |	0.844 |
+| intunalf_bungkus | 74-5 | 0.939 |	1 |	0.995 |	0.828 |
+| inza_bungkus | 74-5 | 0.924 |	1 |	0.995 |	0.753 |
+| neo rheumacyl_ecer | 74-14 |	1	| 0.797 |	0.99 |	0.617 |
+| oskadon_biasa_bungkus | 74-7 | 0.909 |	0.857 |	0.858 |	0.619 |
+| oskadon_sp_bungkus | 74-5 | 0.953 |	1 |	0.995 |	0.876 |
+| panadol extra_bungkus | 74-7 | 0.953 |	1 |	0.995 |	0.91 |
+| panadol paracetamol_bungkus | 74-12 |	0.902 |	0.917 |	0.909 |	0.623 |
+| panadol_cold-Flu_bungkus | 74-7 | 0.813	| 0.857 |	0.883 |	0.549 |
+| paramex_bungkus_luar | 74-10 | 1	| 0.944 |	0.995 |	0.933 |
+| procold_bungkus | 74-11	| 0.953	| 0.909 |	0.971 |	0.773 |
+| ultraflu_bungkus | 74-6	| 0.879 |	1 |	0.995 |	0.746 |
 
- 
+### Confusion Matrix
+
+Dari Confusion Matrix di atas sudah banyak kelas yang sudah mencapai nilai 1.00 namun terdapat beberapa kelas yang masih di bawah 1.00, dengan nilai terendah adalah 0,86
+
+### Grafik Training/Validation
+
+Dari grafik Training/Validation di atas terlihat bahwa grafik loss train dan validation untuk object, box, dan kelas di setiap bertambanya epoch akan semakin berkurang mendekati nol yang mengartikan bahwa model sudah baik dan tidak over maupun under fitting, begitu juga dengan grafik metrik recall, pressisision dan mAPnya di setiap bertambahnya epoch akan bertambah mendekati 1.00
+
 ### Testing
-
+Berikut adalah gambar-gambar testing menggunakan weight atau model dari YOLOv5 dengan menggunakan Backbone EfficientNetLite
 
 ### Deployment (Optional)
 
