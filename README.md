@@ -130,7 +130,13 @@ Berikut adalah gambar-gambar testing menggunakan weight atau model dari YOLOv5 d
 <img src="https://github.com/InnovisionariesTeam/Innovisionaries_MedicineDetection/blob/main/asset/3.png" width="500">
 
 ### Deployment (Optional)
+Aplikasi ini di-deploy menggunakan framework Streamlit, yang menyediakan antarmuka pengguna yang interaktif dan mudah digunakan. Aplikasi ini dirancang dari dataset yang telah didefinisikan dan menggunakan model YOLOv5 dan EfficientNetLite yang telah dikonfigurasi untuk deteksi obat, dengan data yang dikelola melalui Pandas dan YAML. Fokus utama aplikasi ini adalah terdapat 2 fungsi:
 
+1. Manajemen Stok Obat
+   Aplikasi memungkinkan pengguna untuk melacak dan mengelola stok obat. Fitur ini dirancang untuk membantu dalam mengorganisir dan memantau ketersediaan obat, dari deteksi aplikasi akan menampilkan tabel berupa obat yang tersedia dan yang tidak tersedia
+   
+3. Informasi Obat
+   Selain manajemen stok, aplikasi juga memberikan informasi terperinci tentang berbagai obat. Ini termasuk keterangan obat, petunjuk penggunaan, dan informasi penting lainnya. Fitur ini sangat bermanfaat untuk pengguna yang mencari detail spesifik tentang obat, termasuk efek samping, komposisi, dan rekomendasi penggunaan.
 
 ## Supporting Documents
 ### Presentation Deck
