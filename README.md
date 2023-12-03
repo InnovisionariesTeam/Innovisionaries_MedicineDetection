@@ -11,7 +11,7 @@ Penggunaan Computer Vision, khususnya Object Detection, terutama untuk mendeteks
 | Adhi Nugroho | Universitas Sains Alqur an | adhinugroho209@gmail.com | --- | Team Member |
 | Dewi Fatimah | Universitas Informatika Dan Bisnis Indonesia | dewifaa1234@gmail.com | ... | Team Member |
 | Gilbert O.K.D. Malau | Universitas Sumatera Utara | gilbertmalau476@gmail.com | ... | Team Leader |
-| Haqqi Setiadjie | Universitas Sebelas Maret | haqqieky354@gmail.com | ... | Team Member |
+| Haqqi Setiadjie | Universitas Sebelas Maret | haqqieky354@gmail.com | https://www.linkedin.com/in/haqqi-setiadjie-a6030a293/ | Team Member |
 | Marva Indrasari | Politeknik Indonusa Surakarta | marvaindrasari@gmail.com | ... | Team Member |
 | Virgie Yunita Salsabil | Institut Teknologi Telkom Purwokerto | virgieyunitasalsa@gmail.com | ... | Team Member |
 
