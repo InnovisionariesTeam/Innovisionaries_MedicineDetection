@@ -31,19 +31,47 @@ Usage: pip install -r requirements.txt, Source: https://github.com/ultralytics/y
 ## Dataset
 Dataset terdiri dari gambar mengenai bungkus depan obat. Sumber dataset di dapat melalui pengumpulan gambar secara mandiri kemudian gambar di proses menggunakan roboflow untuk anotasi bounding box dan nama kelas, untuk kelasnya sendiri terdapat 14 kelas sebagai berikut:
 - (1) bodrex_bungkus
+<img src="https://github.com/InnovisionariesTeam/Innovisionaries_MedicineDetection/blob/main/asset/Bodrex.jpg" width="250">
+
 - (2) bodrexin_bungkus
+<img src="https://github.com/InnovisionariesTeam/Innovisionaries_MedicineDetection/blob/main/asset/Bondrexin.jpg" width="250">
+
 - (3) decolgen_bungkus
+<img src="https://github.com/InnovisionariesTeam/Innovisionaries_MedicineDetection/blob/main/asset/Decolgen.jpg" width="250">
+  
 - (4) intunalf_bungkus
+<img src="https://github.com/InnovisionariesTeam/Innovisionaries_MedicineDetection/blob/main/asset/Intunalf.jpg" width="250">
+  
 - (5) inza_bungkus
+<img src="https://github.com/InnovisionariesTeam/Innovisionaries_MedicineDetection/blob/main/asset/Inza.jpg" width="250">
+  
 - (6) neo rheumacyl_ecer
+<img src="https://github.com/InnovisionariesTeam/Innovisionaries_MedicineDetection/blob/main/asset/Neo_rheumacyl.jpg" width="250">
+  
 - (7) oskadon_biasa_bungkus
+<img src="https://github.com/InnovisionariesTeam/Innovisionaries_MedicineDetection/blob/main/asset/Oskadon.jpg" width="250">
+  
 - (8) oskadon_sp_bungkus
+<img src="https://github.com/InnovisionariesTeam/Innovisionaries_MedicineDetection/blob/main/asset/Oskadon_sp.jpg" width="250">
+  
 - (9) panadol extra_bungkus
+<img src="https://github.com/InnovisionariesTeam/Innovisionaries_MedicineDetection/blob/main/asset/Panadol_extend.jpg" width="250">
+  
 - (10) Panadol paracetamol_bungkus
+<img src="https://github.com/InnovisionariesTeam/Innovisionaries_MedicineDetection/blob/main/asset/Panadol_paracetamol.jpg" width="250">
+  
 - (11) Panadol_cold&flu_bungkus
+<img src="https://github.com/InnovisionariesTeam/Innovisionaries_MedicineDetection/blob/main/asset/Panadol_coldflu.jpg" width="250">
+  
 - (12) paramex_bungkus_luar
+<img src="https://github.com/InnovisionariesTeam/Innovisionaries_MedicineDetection/blob/main/asset/Paramex.jpg" width="250">
+  
 - (13) procold_bungkus
-- (14) ultraflu_bungkus.
+<img src="https://github.com/InnovisionariesTeam/Innovisionaries_MedicineDetection/blob/main/asset/Procold.jpg" width="250">
+  
+- (14) ultraflu_bungkus
+<img src="https://github.com/InnovisionariesTeam/Innovisionaries_MedicineDetection/blob/main/asset/Ultraflu.jpg" width="250">
+  
 
 Link: https://universe.roboflow.com/innovisionaries-team-bbj4a/medicine-detection-d4vem
 
@@ -85,14 +113,21 @@ Untuk Hasil Performa lengkap dari YOLOv5 dengan menggunakan Backbone EfficientNe
 
 ### Confusion Matrix
 
+<img src="https://github.com/InnovisionariesTeam/Innovisionaries_MedicineDetection/blob/main/asset/confusion_matrix.png" width="750">
+
 Dari Confusion Matrix di atas sudah banyak kelas yang sudah mencapai nilai 1.00 namun terdapat beberapa kelas yang masih di bawah 1.00, dengan nilai terendah adalah 0,86
 
 ### Grafik Training/Validation
+
+<img src="https://github.com/InnovisionariesTeam/Innovisionaries_MedicineDetection/blob/main/asset/results.png" width="750">
 
 Dari grafik Training/Validation di atas terlihat bahwa grafik loss train dan validation untuk object, box, dan kelas di setiap bertambanya epoch akan semakin berkurang mendekati nol yang mengartikan bahwa model sudah baik dan tidak over maupun under fitting, begitu juga dengan grafik metrik recall, pressisision dan mAPnya di setiap bertambahnya epoch akan bertambah mendekati 1.00
 
 ### Testing
 Berikut adalah gambar-gambar testing menggunakan weight atau model dari YOLOv5 dengan menggunakan Backbone EfficientNetLite
+<img src="https://github.com/InnovisionariesTeam/Innovisionaries_MedicineDetection/blob/main/asset/1.png" width="500">
+<img src="https://github.com/InnovisionariesTeam/Innovisionaries_MedicineDetection/blob/main/asset/2.png" width="500">
+<img src="https://github.com/InnovisionariesTeam/Innovisionaries_MedicineDetection/blob/main/asset/3.png" width="500">
 
 ### Deployment (Optional)
 
