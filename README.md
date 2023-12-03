@@ -3,82 +3,85 @@
 ## Project Description
 Dalam sehari-hari, terdapat beberapa masalah yang perlu diatasi untuk meningkatkan pengelolaan toko/warung khususnya warung kelontong dalam menjual obat-obatan dan memberikan pelayanan yang lebih baik kepada konsumen. Beberapa masalah yang perlu diperhatikan yaitu kurangnya pemahaman atau pengetahuan farmasi yang cukup dari pemilik toko/warung kelontong mengenai jenis-jenis obat yang mereka jual, serta masalah manajemen stok obat yang umum dipasaran dan wajib ada di setiap toko/warung kelontong. Oleh karena itu, kami menghadirkan "KNOW-STOCK: Optimalization Knowledge and Stock Medicine in Stall Local with Object Detection" untuk mendeteksi obat jenis apa saja yang dijual kepada konsumen, serta manajemen penyediaan stok obat pada setiap toko/warung kelontong.
 
+Penggunaan Computer Vision, khususnya Object Detection, terutama untuk mendeteksi dan mengidentifikasi obat-obatan. Hal ini sangat membantu dalam mengelola informasi tentang obat dan manajemen penyediaan stok. Teknologi yang bisa digunakan adalah YOLOv5 dari Ultralytics. YOLO (You Only Look Once) adalah sistem deteksi objek yang terkenal karena kecepatan dan akurasinya. Versi kelima, YOLOv5, membawa peningkatan yang signifikan dari versi sebelumnya. Untuk meningkatkan performa YOLOv5, Kami memodifikasi backbone modelnya dengan menggunakan EfficientNetLite. EfficientNetLite adalah varian dari EfficientNet yang dioptimalkan untuk perangkat dengan kemampuan komputasi yang lebih terbatas. Modifikasi ini akan meningkatkan efisiensi komputasi dan akurasi model tanpa memerlukan sumber daya komputasi yang besar. Integrasi YOLOv5 yang dimodifikasi dengan EfficientNetLite akan menghasilkan model yang tidak hanya cepat dan akurat dalam mendeteksi objek, tetapi juga efisien dalam penggunaan sumber daya.
+
 ## Contributor
 | Full Name | Affiliation | Email | LinkedIn | Role |
+| --- | --- | --- | --- | --- |
 | Adhi Nugroho | Universitas Sains Alqur an | adhinugroho209@gmail.com | --- | Team Member |
-| Dewi Fatimah | Universitas Informatika Dan Bisnis Indonesia | dewifaa1234@gmail.com | Team Member |  |
-| Gilbert O.K.D. Malau | Universitas Sumatera Utara | gilbertmalau476@gmail.com | ... | Team Lead |
+| Dewi Fatimah | Universitas Informatika Dan Bisnis Indonesia | dewifaa1234@gmail.com | ... | Team Member |
+| Gilbert O.K.D. Malau | Universitas Sumatera Utara | gilbertmalau476@gmail.com | ... | Team Leader |
 | Haqqi Setiadjie | Universitas Sebelas Maret | haqqieky354@gmail.com | ... | Team Member |
 | Marva Indrasari | Politeknik Indonusa Surakarta | marvaindrasari@gmail.com | ... | Team Member |
 | Virgie Yunita Salsabil | Institut Teknologi Telkom Purwokerto | virgieyunitasalsa@gmail.com | ... | Team Member |
-| Nicholas Dominic | Startup Campus, AI Track | nic.dominic@icloud.com | [link](https://linkedin.com/in/nicholas-dominic) | Supervisor |
 
 ## Setup
-###YOLOv5 requirements
-Usage: pip install -r requirements.txt
-Source: https://github.com/ultralytics/yolov5/blob/master/requirements.txt
+### YOLOv5 requirements
+Usage: pip install -r requirements.txt, Source: https://github.com/ultralytics/yolov5/blob/master/requirements.txt
 
 ### Environment
+| Device | Name |
+| --- | --- |
 | CPU | Intel Core i7-11700kf |
 | GPU | Nvidia A100 (x1) |
 | ROM | 1 TB HDD, 500 GB SSD |
-| RAM | 32 GB |
+| RAM | 51 GB |
 | OS | Windows 10 Pro |
 
 ## Dataset
-Describe your dataset information here. Provide a screenshot for some of your dataset samples (for example, if you're using CIFAR10 dataset, then show an image for each class).
-- Link: https://universe.roboflow.com/innovisionaries-team-bbj4a/medicine-detection-d4vem
+Dataset terdiri dari gambar mengenai bungkus depan obat. Sumber dataset di dapat melalui pengumpulan gambar secara mandiri kemudian gambar di proses menggunakan roboflow untuk anotasi bounding box dan nama kelas, untuk kelasnya sendiri terdapat 14 kelas sebagai berikut:
+- (1) bodrex_bungkus
+- (2) bodrexin_bungkus
+- (3) decolgen_bungkus
+- (4) intunalf_bungkus
+- (5) inza_bungkus
+- (6) neo rheumacyl_ecer
+- (7) oskadon_biasa_bungkus
+- (8) oskadon_sp_bungkus
+- (9) panadol extra_bungkus
+- (10) Panadol paracetamol_bungkus
+- (11) Panadol_cold&flu_bungkus
+- (12) paramex_bungkus_luar
+- (13) procold_bungkus
+- (14) ultraflu_bungkus.
+
+Link: https://universe.roboflow.com/innovisionaries-team-bbj4a/medicine-detection-d4vem
 
 ## Results
 ### Model Performance
-Describe all results found in your final project experiments, including hyperparameters tuning and architecture modification performances. Put it into table format. Please show pictures (of model accuracy, loss, etc.) for more clarity.
+Seperti yang kami bilang di deskripsi project, tidak serta-merta menggunakan YOLOv5 Langsung tetapi melakukan modifikasi terutama pada bagian bacbonenya untuk meningkatkan performa YOLOv5 dan penyesuaian terhadap dataset yang terbatas. Disini kami memilih arsitektur yang menghasilkan weight yang kecil atau arsitektur yang ringan agar tidak merusak model. Terdapat 3 pilihan arsitektur untuk memodifikasi backbonenya sebagai berikut
+- Custom YOLOv5 (Kami membuat arsitekturnya lebih lebar)
+- MobileNetv3
+- EfficientNetLite
 
-#### 1. Metrics
-Inform your model validation performances, as follows:
-- For classification tasks, use **Precision and Recall**.
-- For object detection tasks, use **Precision and Recall**. Additionaly, you may also use **Intersection over Union (IoU)**.
-- For image retrieval tasks, use **Precision and Recall**.
-- For optical character recognition (OCR) tasks, use **Word Error Rate (WER) and Character Error Rate (CER)**.
-- For adversarial-based generative tasks, use **Peak Signal-to-Noise Ratio (PNSR)**. Additionally, for specific GAN tasks,
-  - For single-image super resolution (SISR) tasks, use **Structural Similarity Index Measure (SSIM)**.
-  - For conditional image-to-image translation tasks (e.g., Pix2Pix), use **Inception Score**.
+Dari ketiga arsitektur tersebut sebagai bacbone kami akan mengambil salah satunya dengan cara membandingkan hasil performanya yang di training menggunakan hyperparameter, batchsize, dan crop size yang sama, hasilnya sebagai berikut:
 
-Feel free to adjust the columns in the table below.
+| Arsitektur | Precision | Recall | mAP50 | mAP50-95 |
+| --- | --- | --- | --- | --- |
+| Custom YOLOv5 |	0.898 |	0.934 | 0.955 | 0.682
+| MobileNetV3 | 0.922 |	0.916 | 0.949 |	0.702
+| EfficientNetLite | 0.93 | 0.944 | 0.969 |	0.757
 
-| model | epoch | learning_rate | batch_size | optimizer | val_loss | val_precision | val_recall | ... |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| vit_b_16 | 1000 |  0.0001 | 32 | Adam | 0.093 | 88.34% | 84.15% | ... |
-| vit_l_32 | 2500 | 0.00001 | 128 | SGD | 0.041 | 90.19% | 87.55% | ... |
-| ... | ... | ... | ... | ... | ... | ... | ... | ... | 
+Dari Hasil di atas, EfficientNetLite memiliki nilai Precision, Recall, mAP50, dan mAP50-95 paling besar di antara arsitekturnya. Maka EfficientNetLite Kami pilih sebagai Backbone dari YOLOv5 sebagai model
 
-#### 2. Ablation Study
-Any improvements or modifications of your base model, should be summarized in this table. Feel free to adjust the columns in the table below.
+### Training/Validation Curve
 
-| model | layer_A | layer_B | layer_C | ... | top1_acc | top5_acc |
-| --- | --- | --- | --- | --- | --- | --- |
-| vit_b_16 | Conv(3x3, 64) x2 | Conv(3x3, 512) x3 | Conv(1x1, 2048) x3 | ... | 77.43% | 80.08% |
-| vit_b_16 | Conv(3x3, 32) x3 | Conv(3x3, 128) x3 | Conv(1x1, 1028) x2 | ... | 72.11% | 76.84% |
-| ... | ... | ... | ... | ... | ... | ... |
-
-#### 3. Training/Validation Curve
-Insert an image regarding your training and evaluation performances (especially their losses). The aim is to assess whether your model is fit, overfit, or underfit.
  
 ### Testing
-Show some implementations (demos) of this model. Show **at least 10 images** of how your model performs on the testing data.
+
 
 ### Deployment (Optional)
-Describe and show how you deploy this project (e.g., using Streamlit or Flask), if any.
+
 
 ## Supporting Documents
 ### Presentation Deck
-- Link: https://www.canva.com/design/DAF0PgrWxEU/b38SuRkCsrzBF6vVwmy_4w/edit?utm_content=DAF0PgrWxEU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+- [link](https://www.canva.com/design/DAF0PgrWxEU/b38SuRkCsrzBF6vVwmy_4w/edit?utm_content=DAF0PgrWxEU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ### Business Model Canvas
 Provide a screenshot of your Business Model Canvas (BMC). Give some explanations, if necessary.
 
 ### Short Video
-Provide a link to your short video, that should includes the project background and how it works.
-- Link: https://drive.google.com/file/d/1ZKZfm0mlrGYXLSYV7N3vEamkxhseAApM/view?usp=drive_link
+- [link](https://drive.google.com/file/d/1ZKZfm0mlrGYXLSYV7N3vEamkxhseAApM/view?usp=drive_link)
   
 ## References
 Provide all links that support this final project, i.e., papers, GitHub repositories, websites, etc.
