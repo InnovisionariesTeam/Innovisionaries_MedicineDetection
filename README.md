@@ -125,6 +125,7 @@ Dari grafik Training/Validation di atas terlihat bahwa grafik loss train dan val
 
 ### Testing
 Berikut adalah gambar-gambar testing menggunakan weight atau model dari YOLOv5 dengan menggunakan Backbone EfficientNetLite
+
 <img src="https://github.com/InnovisionariesTeam/Innovisionaries_MedicineDetection/blob/main/asset/1.png" width="500">
 <img src="https://github.com/InnovisionariesTeam/Innovisionaries_MedicineDetection/blob/main/asset/2.png" width="500">
 <img src="https://github.com/InnovisionariesTeam/Innovisionaries_MedicineDetection/blob/main/asset/3.png" width="500">
