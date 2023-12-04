@@ -150,6 +150,7 @@ Aplikasi ini di-deploy menggunakan framework Streamlit, yang menyediakan antarmu
 Business Model Canvas dapat dilihat melalui: [link](https://docs.google.com/document/d/1d4BoXntGU1w5FP2nKvSDpLWp9PDnaWoE/edit?usp=sharing&ouid=117040208822152496605&rtpof=true&sd=true) ini
 
 ### Short Video
+Berikut video pendek yang berisi Latar belakang, Solusi yang ditawarkan & Value to business, Cara kerja, Documentation & Credits.
 - [link](https://drive.google.com/file/d/1ZKZfm0mlrGYXLSYV7N3vEamkxhseAApM/view?usp=drive_link)
   
 ## References
