@@ -12,7 +12,7 @@ Penggunaan Computer Vision, khususnya Object Detection, terutama untuk mendeteks
 | Dewi Fatimah | Universitas Informatika Dan Bisnis Indonesia | dewifaa1234@gmail.com | [link](...) | Team Member |
 | Gilbert O.K.D. Malau | Universitas Sumatera Utara | gilbertmalau476@gmail.com | [link](https://www.linkedin.com/in/gilbert-o-k-d-malau-b14b541a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) | Team Leader |
 | Haqqi Setiadjie | Universitas Sebelas Maret | haqqieky354@gmail.com | [link](https://www.linkedin.com/in/haqqi-setiadjie-a6030a293/) | Team Member |
-| Marva Indrasari | Politeknik Indonusa Surakarta | marvaindrasari@gmail.com | [link](...) | Team Member |
+| Marva Indrasari | Politeknik Indonusa Surakarta | marvaindrasari@gmail.com | [link](https://www.linkedin.com/in/marva-indrasari-050681289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) | Team Member |
 | Virgie Yunita Salsabil | Institut Teknologi Telkom Purwokerto | virgieyunitasalsa@gmail.com | [link](https://www.linkedin.com/in/virgieys?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app) | Team Member |
 
 ## Setup
@@ -147,9 +147,7 @@ Aplikasi ini di-deploy menggunakan framework Streamlit, yang menyediakan antarmu
 ### Business Model Canvas
 <img src="https://github.com/InnovisionariesTeam/Innovisionaries_MedicineDetection/blob/main/asset/BMC.png" width="750">
 
-Tolong jelasin yaa gaiss
-
-Jika ingin melihat BMC secara Lengkap dapat melalui [link](https://docs.google.com/document/d/1d4BoXntGU1w5FP2nKvSDpLWp9PDnaWoE/edit?usp=sharing&ouid=117040208822152496605&rtpof=true&sd=true) ini
+Business Model Canvas dapat dilihat melalui: [link](https://docs.google.com/document/d/1d4BoXntGU1w5FP2nKvSDpLWp9PDnaWoE/edit?usp=sharing&ouid=117040208822152496605&rtpof=true&sd=true) ini
 
 ### Short Video
 - [link](https://drive.google.com/file/d/1ZKZfm0mlrGYXLSYV7N3vEamkxhseAApM/view?usp=drive_link)
