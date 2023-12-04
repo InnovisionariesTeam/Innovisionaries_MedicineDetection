@@ -147,7 +147,7 @@ Aplikasi ini di-deploy menggunakan framework Streamlit, yang menyediakan antarmu
 ### Business Model Canvas
 <img src="https://github.com/InnovisionariesTeam/Innovisionaries_MedicineDetection/blob/main/asset/BMC.png" width="750">
 
-- Poblem Statement<br>
+- Problem Statement<br>
   Masalah yang di identifikasi adalah kurangnya pemahaman atau pengetahuan farmasi yang cukup dari pemilik toko/warung kelontong mengenai jenis-jenis obat yang mereka jual, serta masalah manajemen stok obat yang umum dipasaran dan wajib ada di setiap toko/warung kelontong. Oleh karena itu, perlu adanya program dengan memanfaatkan teknologi Artificial Intelligence yaitu Object detection untuk mendeteksi obat jenis apa saja yang dijual kepada konsumen, serta manajemen penyediaan stok obat pada setiap toko/warung kelontong.
 
 - Mission Statement <br>
