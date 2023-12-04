@@ -158,7 +158,8 @@ Jika ingin melihat BMC secara Lengkap dapat melalui [link](https://docs.google.c
 Provide all links that support this final project, i.e., papers, GitHub repositories, websites, etc.
 - Link: https://...
 - Link: https://...
-- Link: https://...
+- Link: https://github.com/ultralytics/yolov5
+- Link: https://github.com/Gumpest/YOLOv5-Multibackbone-Compression/tree/main
 
 ## Additional Comments
 Provide your team's additional comments or final remarks for this project. For example,
@@ -178,4 +179,4 @@ If you find this project useful, we'd grateful if you cite this repository:
 For academic and non-commercial use only.
 
 ## Acknowledgement
-This project entitled <b>"YOUR PROJECT TITLE HERE"</b> is supported and funded by Startup Campus Indonesia and Indonesian Ministry of Education and Culture through the "**Kampus Merdeka: Magang dan Studi Independen Bersertifikasi (MSIB)**" program.
+This project entitled <b>"KNOW-STOCK: Optimalization Knowledge and Stock Medicine in Stall Local with Object Detection"</b> is supported and funded by Startup Campus Indonesia and Indonesian Ministry of Education and Culture through the "**Kampus Merdeka: Magang dan Studi Independen Bersertifikasi (MSIB)**" program.
