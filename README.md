@@ -245,7 +245,7 @@ Provide all links that support this final project, i.e., papers, GitHub reposito
 - Link: http://repository2.unw.ac.id/587/21/S1_050115A092_Artikel.pdf
 - Link: https://dataindonesia.id/industri-perdagangan/detail/jumlah-toko-retail-di-indonesia-sebanyak-398-juta-pada-2022
 - Link: https://www.liputan6.com/bisnis/read/4895543/kehadiran-36-juta-toko-kelontong-bawa-berkah-bagi-ekonomi-indonesia?page=2
-- - Link: https://farmalkes.kemkes.go.id/2014/09/mencerdaskan-masyarakat-dalam-penggunaan-obat-melalui-metode-cara-belajar-insan-aktif-cbia/
+- Link: https://farmalkes.kemkes.go.id/2014/09/mencerdaskan-masyarakat-dalam-penggunaan-obat-melalui-metode-cara-belajar-insan-aktif-cbia/
 - Link: https://uns.ac.id/id/uns-update/tidak-hanya-tepat-dosis-mengkonsumsi-obat-juga-harus-tepat-waktu-dan-tepat-cara-minum.html
 
 ## Additional Comments
