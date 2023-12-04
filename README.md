@@ -158,7 +158,8 @@ Provide all links that support this final project, i.e., papers, GitHub reposito
 - Link: https://github.com/ultralytics/yolov5
 - Link: https://dataindonesia.id/kesehatan/detail/makin-banyak-orang-indonesia-pilih-berobat-sendiri-saat-sakit
 - Link: http://repository2.unw.ac.id/587/21/S1_050115A092_Artikel.pdf
-- Link: https://...
+- Link: https://dataindonesia.id/industri-perdagangan/detail/jumlah-toko-retail-di-indonesia-sebanyak-398-juta-pada-2022
+- Link: https://www.liputan6.com/bisnis/read/4895543/kehadiran-36-juta-toko-kelontong-bawa-berkah-bagi-ekonomi-indonesia?page=2
 
 ## Additional Comments
 Provide your team's additional comments or final remarks for this project. For example,
