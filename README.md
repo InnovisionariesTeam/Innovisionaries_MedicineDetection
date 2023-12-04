@@ -20,13 +20,14 @@ Penggunaan Computer Vision, khususnya Object Detection, terutama untuk mendeteks
 Usage: pip install -r requirements.txt, Source: https://github.com/ultralytics/yolov5/blob/master/requirements.txt
 
 ### Environment
+#### Google Colaboratory Pro +
 | Device | Name |
 | --- | --- |
-| CPU | Intel Core i7-11700kf |
+| CPU | Intel(R) Xeon(R) CPU @ 2.30GHz |
 | GPU | Nvidia A100 (x1) |
-| ROM | 1 TB HDD, 500 GB SSD |
-| RAM | 51 GB |
-| OS | Windows 10 Pro |
+| ROM | 166.8 GB |
+| RAM | 83.5 GB |
+| OS | Linux-5.4.104+-x86_64-with-Ubuntu-18.04-bionic |
 
 ## Dataset
 Dataset terdiri dari gambar mengenai bungkus depan obat. Sumber dataset di dapat melalui pengumpulan gambar secara mandiri kemudian gambar di proses menggunakan roboflow untuk anotasi bounding box dan nama kelas, untuk kelasnya sendiri terdapat 14 kelas sebagai berikut:
