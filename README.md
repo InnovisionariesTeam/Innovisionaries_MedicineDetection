@@ -147,6 +147,90 @@ Aplikasi ini di-deploy menggunakan framework Streamlit, yang menyediakan antarmu
 ### Business Model Canvas
 <img src="https://github.com/InnovisionariesTeam/Innovisionaries_MedicineDetection/blob/main/asset/BMC.png" width="750">
 
+- Poblem Statement<br>
+  Masalah yang di identifikasi adalah kurangnya pemahaman atau pengetahuan farmasi yang cukup dari pemilik toko/warung kelontong mengenai jenis-jenis obat yang mereka jual, serta masalah manajemen stok obat yang umum dipasaran dan wajib ada di setiap toko/warung kelontong. Oleh karena itu, perlu adanya program dengan memanfaatkan teknologi Artificial Intelligence yaitu Object detection untuk mendeteksi obat jenis apa saja yang dijual kepada konsumen, serta manajemen penyediaan stok obat pada setiap toko/warung kelontong.
+
+- Mission Statement <br>
+  Ide ini diperlukan karena dengan adanya ide proyek ini yang memanfaatkan AI khususnya Object Detection, kita dapat menghadirkan solusi inovatif dalam meningkatkan kualitas pengelolaan toko/warung kelontong yang menjual obat-obatan dan fokus pada 2 aspek permasalahan yaitu mengenai pengetahuan farmasi pemilik toko dan manajemen stok obat.  Untuk aspek pengetahuan farmasi, nantinya Object detection yang kami buat akan mendeteksi obat yang dibeli oleh konsumen dan otomatis akan muncul informasi mengenai komposisi, dosis, indikasi penggunaan, dan lainnya yang digunakan untuk memberikan informasi singkat kepada konsumen mengenai obat yang akan dibeli. Pada aspek manajemen stok obat, Object detection secara otomatis akan mendeteksi jenis obat dan jumlah obat yang masih ada di toko/warung kelontong. Hal ini dapat membantu pemilik warung dalam penghitungan otomatis stok obat yang tersedia dan tidak tersedia, serta menghindari kekosongan obat yang dapat mengganggu pelayanan dan akan memberikan rasa percaya konsumen terhadap warung yang mereka datangi karena kebutuhan obat yang mereka cari selalu terpenuhi.
+
+- Key Partners<br>
+  Mitra yang membuat ide bisnis ini berhasil adalah sebagai berikut:
+  1. Toko/warung kelontong
+  2. Pemasok obat dan distributor
+
+- Key Activities<br>
+  Aktivitas terpenting yang harus diambil agar ide bisnis ini berhasil adalah melakukan beberapa tahapan yaitu:<br>
+  Tahap pengembangan teknologi object detection:
+  1. Pengumpulan dataset obat
+  2. Anotasi atau pelabelan dataset
+  3. Pembuatan model
+  4. Pemilihan arsitektur yang cocok untuk model
+  5. Deployment model dengan streamlit
+  6. Integrasi sistem object detection dengan database stok toko/warung kelontong
+     
+  Tahap pemasaran:
+  1. Mempromosikan sistem melalui social platforms seperti Instagram, Tiktok, Facebook dan Whatsapp
+  2. Memberikan penawaran langsung kepada toko/warung lokal terdekat
+  3. Membuat konten edukatif melalui blog atau podcast pada youtube
+
+- Value Proposition<br>
+  Value yang diciptakan melalui Know-stock AI object detection adalah sebagai berikut:
+  1. Mengetahui informasi detail secara otomatis mengenai obat-obatan yang dijual
+  2. Penjualan obat lebih terstruktur dan lengkap
+  3. Peningkatan layanan pelanggan
+
+- Stakeholder (Customers) Relationship<br>
+  Untuk memberikan value bisnis kami secara berkala kepada pelanggan, kami melakukan
+  1. Pelatihan penggunaan sistem object detection
+  2. Pemberian dukungan teknis seperti pemeliharaan sistem
+  3. Layanan helpdesk
+
+- Stakeholder (Customers) Segments<br>
+  value ini dibuat untuk menargetkan kepada:
+  1. Pemilik warung yang kurang paham mengenai jenis dan fungsi obat yang dijual
+  2. Pemilik warung yang malas menghitung stok obat secara manual
+  3. Pemilik warung yang baru memulai bisnisnya
+
+- Key Resources<br>
+  Aset/hal yang paling penting agar ide bisnis ini berhasil adalah sebagai berikut:
+  1. Dataset lengkap Obat-obatan
+  2. Tim pengembang (developer) teknologi Object Detection
+  3. Kemitraan dengan pemasok obat dan distributor
+  4. Sumberdaya (Hardware dan Software)
+  5. Pembiayaan/keuangan
+
+- Channels<br>
+  untuk menjangkau pelanggan kami menggunakan teknologi untuk mempromosikan bisnis kami. berikut startegi yang kami lakukan:
+  1. Promosi melalui social platforms (Instagram, Tiktok, Facebook, Youtube, Whatsapp)
+  2. Penawaran langsung di lokasi toko/warung lokal terdekat.
+  3. Customer support melalui WA.
+
+- Cost Structure<br>
+  Biaya terpenting yang melekat dalam ide bisnis adalah sebagai berikut:
+  1. Gaji karyawan/staff
+  2. Pengumpulan dataset obat
+  3. Biaya pemasaran & promosi
+  4. Layanan google colab pro+
+  5. Platform maintenance
+
+- Revenue Streams<br>
+  Model pendapatan utama dari bisnis ini adalah sebagai berikut:
+  Primary source:
+  1. Biaya integrasi sistem
+  2. Biaya pelatihan penggunaan sistem
+  3. Layanan konsultasi/pembaruan sistem.
+
+  Komisi: <br>
+  1. Biaya berlangganan di setiap bulannya
+
+  Pengembangan Kustomisasi Deteksi Produk:
+  1. Membuka opsi pengembangan kustomisasi sesuai dengan kebutuhan khusus warung lokal tertentu.
+  2. Menetapkan biaya tambahan untuk pengembangan dan penerapan fitur tambahan.
+  3. Menyediakan opsi penyimpanan data tambahan dan analisis mendalam dengan biaya tambahan.
+
+  Konten Edukasi melalui Blog atau Podcast
+
+
 Business Model Canvas dapat dilihat melalui: [link](https://docs.google.com/document/d/1d4BoXntGU1w5FP2nKvSDpLWp9PDnaWoE/edit?usp=sharing&ouid=117040208822152496605&rtpof=true&sd=true) ini
 
 ### Short Video
