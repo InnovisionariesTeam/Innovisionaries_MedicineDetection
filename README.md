@@ -157,7 +157,7 @@ Berikut video pendek yang berisi Latar belakang, Solusi yang ditawarkan & Value 
 Provide all links that support this final project, i.e., papers, GitHub repositories, websites, etc.
 - Link: https://github.com/ultralytics/yolov5
 - Link: https://dataindonesia.id/kesehatan/detail/makin-banyak-orang-indonesia-pilih-berobat-sendiri-saat-sakit
-- Link: https://...
+- Link: http://repository2.unw.ac.id/587/21/S1_050115A092_Artikel.pdf
 - Link: https://...
 
 ## Additional Comments
