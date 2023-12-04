@@ -10,10 +10,10 @@ Penggunaan Computer Vision, khususnya Object Detection, terutama untuk mendeteks
 | --- | --- | --- | --- | --- |
 | Adhi Nugroho | Universitas Sains Alqur an | adhinugroho209@gmail.com | [link](...) | Team Member |
 | Dewi Fatimah | Universitas Informatika Dan Bisnis Indonesia | dewifaa1234@gmail.com | [link](...) | Team Member |
-| Gilbert O.K.D. Malau | Universitas Sumatera Utara | gilbertmalau476@gmail.com | [link](...) | Team Leader |
+| Gilbert O.K.D. Malau | Universitas Sumatera Utara | gilbertmalau476@gmail.com | [link](https://www.linkedin.com/in/gilbert-o-k-d-malau-b14b541a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) | Team Leader |
 | Haqqi Setiadjie | Universitas Sebelas Maret | haqqieky354@gmail.com | [link](https://www.linkedin.com/in/haqqi-setiadjie-a6030a293/) | Team Member |
 | Marva Indrasari | Politeknik Indonusa Surakarta | marvaindrasari@gmail.com | [link](...) | Team Member |
-| Virgie Yunita Salsabil | Institut Teknologi Telkom Purwokerto | virgieyunitasalsa@gmail.com | [link](...) | Team Member |
+| Virgie Yunita Salsabil | Institut Teknologi Telkom Purwokerto | virgieyunitasalsa@gmail.com | [link](https://www.linkedin.com/in/virgieys?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app) | Team Member |
 
 ## Setup
 ### YOLOv5 requirements
